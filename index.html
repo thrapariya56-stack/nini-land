@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>نی‌نی لند | فروشگاه تخصصی سیسمونی</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="top-header">
+
+        <div class="logo">
+            نی‌نی <span>لند</span> 🍼
+        </div>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="جستجوی محصول..."
+            >
+            <span>⌕</span>
+        </div>
+
+        <div class="header-actions">
+
+            <button class="icon-btn" title="علاقه‌مندی‌ها">
+                ♡
+            </button>
+
+            <button
+                class="icon-btn cart-button"
+                onclick="openCart()"
+                title="سبد خرید">
+
+                🛒
+                <span id="cartCount">0</span>
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="#home">خانه</a>
+            </li>
+
+            <li>
+                <a href="#categories">دسته‌بندی‌ها</a>
+            </li>
+
+            <li>
+                <a href="#products">محصولات</a>
+            </li>
+
+            <li>
+                <a href="#offers">تخفیف‌ها</a>
+            </li>
+
+            <li>
+                <a href="#contact">تماس با ما</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+    <div class="hero-text">
+
+        <span class="mini-title">
+            فروشگاه تخصصی سیسمونی
+        </span>
+
+        <h1>
+            دنیای کوچولوی<br>
+            شما از اینجا شروع میشه
+            <span>💗</span>
+        </h1>
+
+        <p>
+            زیباترین و باکیفیت‌ترین محصولات سیسمونی
+            برای کوچولوی دوست‌داشتنی شما.
+        </p>
+
+        <button
+            class="main-btn"
+            onclick="goToProducts()">
+
+            مشاهده محصولات
+
+        </button>
+
+    </div>
+
+
+<div class="hero-photo">
+
+    <img
+        src="Images/bear.jpg"
+        alt="خرس عروسکی">
+
+</div>
+
+</section>
+
+
+<!-- FEATURES -->
+
+<section class="features">
+
+    <div class="feature">
+
+        <div class="feature-icon">
+            🚚
+        </div>
+
+        <h3>
+            ارسال سریع
+        </h3>
+
+        <p>
+            ارسال سفارش به سراسر کشور
+        </p>
+
+    </div>
+
+
+    <div class="feature">
+
+        <div class="feature-icon">
+            💎
+        </div>
+
+        <h3>
+            کیفیت تضمینی
+        </h3>
+
+        <p>
+            محصولات باکیفیت و مطمئن
+        </p>
+
+    </div>
+
+
+    <div class="feature">
+
+        <div class="feature-icon">
+            🔒
+        </div>
+
+        <h3>
+            خرید امن
+        </h3>
+
+        <p>
+            پرداخت امن و مطمئن
+        </p>
+
+    </div>
+
+
+    <div class="feature">
+
+        <div class="feature-icon">
+            💬
+        </div>
+
+        <h3>
+            پشتیبانی
+        </h3>
+
+        <p>
+            پاسخگویی قبل و بعد از خرید
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- CATEGORIES -->
+
+<section
+    class="section"
+    id="categories">
+
+    <div class="section-title">
+
+        <span>
+            دسته‌بندی محصولات
+        </span>
+
+        <h2>
+            برای کوچولوی شما
+        </h2>
+
+        <p>
+            همه چیز برای شروع یک زندگی شیرین
+        </p>
+
+    </div>
+
+
+    <div class="categories">
+
+
+        <div class="category">
+
+            <img
+                src="Images/clothes.jpg"
+                alt="لباس نوزاد">
+
+            <div>
+                <h3>
+                    لباس نوزاد
+                </h3>
+
+                <span>
+                    مشاهده محصولات
+                </span>
+            </div>
+
+        </div>
+
+
+        <div class="category">
+
+            <img
+                src="Images/stroller.jpg"
+                alt="کالسکه">
+
+            <div>
+                <h3>
+                    کالسکه
+                </h3>
+
+                <span>
+                    مشاهده محصولات
+                </span>
+            </div>
+
+        </div>
+
+
+        <div class="category">
+
+            <img
+                src="Images/bed.jpg"
+                alt="تخت نوزاد">
+
+            <div>
+                <h3>
+                    تخت و خواب
+                </h3>
+
+                <span>
+                    مشاهده محصولات
+                </span>
+            </div>
+
+        </div>
+
+
+        <div class="category">
+
+            <img
+                src="Images/teddy.jpg"
+                alt="اسباب بازی">
+
+            <div>
+                <h3>
+                    اسباب‌بازی
+                </h3>
+
+                <span>
+                    مشاهده محصولات
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PRODUCTS -->
+
+<section
+    class="section products-section"
+    id="products">
+
+    <div class="section-title">
+
+        <span>
+            انتخاب مامان‌ها
+        </span>
+
+        <h2>
+            محصولات ویژه
+        </h2>
+
+        <p>
+            محبوب‌ترین محصولات فروشگاه
+        </p>
+
+    </div>
+
+
+    <div class="filters">
+
+        <button
+            class="filter-btn active"
+            onclick="filterProducts('all', this)">
+
+            همه
+
+        </button>
+
+
+        <button
+            class="filter-btn"
+            onclick="filterProducts('clothes', this)">
+
+            لباس
+
+        </button>
+
+
+        <button
+            class="filter-btn"
+            onclick="filterProducts('baby', this)">
+
+            نوزاد
+
+        </button>
+
+
+        <button
+            class="filter-btn"
+            onclick="filterProducts('toy', this)">
+
+            اسباب‌بازی
+
+        </button>
+
+
+        <button
+            class="filter-btn"
+            onclick="filterProducts('sleep', this)">
+
+            خواب
+
+        </button>
+
+    </div>
+
+
+    <div
+        class="products"
+        id="productContainer">
+
+
+        <!-- PRODUCT 1 -->
+
+        <div
+            class="product"
+            data-category="clothes"
+            data-name="ست لباس نوزادی دخترانه">
+
+            <div class="product-image">
+
+                <span class="discount">
+                    ۲۰٪ تخفیف
+                </span>
+
+                <button
+                    class="heart"
+                    onclick="toggleHeart(this)">
+
+                    ♡
+
+                </button>
+
+                <img
+                    src="Images/clothes.jpg"
+                    alt="ست لباس نوزادی">
+
+            </div>
+
+
+            <div class="product-info">
+
+                <h3>
+                    ست لباس نوزادی دخترانه
+                </h3>
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <div class="price">
+
+                    <strong>
+                        ۸۹۰,۰۰۰ تومان
+                    </strong>
+
+                    <del>
+                        ۱,۱۰۰,۰۰۰
+                    </del>
+
+                </div>
+
+
+                <button
+                    class="add-cart"
+                    onclick="addToCart(
+                        'ست لباس نوزادی دخترانه',
+                        890000,
+                        'Images/clothes.jpg'
+                    )">
+
+                    🛒 افزودن به سبد خرید
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 2 -->
+
+        <div
+            class="product"
+            data-category="baby"
+            data-name="ست شیشه شیر نوزاد">
+
+            <div class="product-image">
+
+                <button
+                    class="heart"
+                    onclick="toggleHeart(this)">
+
+                    ♡
+
+                </button>
+
+                <img
+                    src="Images/bottle.jpg"
+                    alt="شیشه شیر">
+
+            </div>
+
+
+            <div class="product-info">
+
+                <h3>
+                    ست شیشه شیر نوزاد
+                </h3>
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <div class="price">
+
+                    <strong>
+                        ۵۹۰,۰۰۰ تومان
+                    </strong>
+
+                </div>
+
+
+                <button
+                    class="add-cart"
+                    onclick="addToCart(
+                        'ست شیشه شیر نوزاد',
+                        590000,
+                        'Images/bottle.jpg'
+                    )">
+
+                    🛒 افزودن به سبد خرید
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 3 -->
+
+        <div
+            class="product"
+            data-category="toy"
+            data-name="خرس عروسکی">
+
+            <div class="product-image">
+
+                <span class="discount">
+                    ۱۵٪ تخفیف
+                </span>
+
+                <button
+                    class="heart"
+                    onclick="toggleHeart(this)">
+
+                    ♡
+
+                </button>
+
+                <img
+                    src="Images/teddy.jpg"
+                    alt="خرس عروسکی">
+
+            </div>
+
+
+            <div class="product-info">
+
+                <h3>
+                    خرس عروسکی ضدحساسیت
+                </h3>
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <div class="price">
+
+                    <strong>
+                        ۶۹۰,۰۰۰ تومان
+                    </strong>
+
+                    <del>
+                        ۸۲۰,۰۰۰
+                    </del>
+
+                </div>
+
+
+                <button
+                    class="add-cart"
+                    onclick="addToCart(
+                        'خرس عروسکی ضدحساسیت',
+                        690000,
+                        'Images/teddy.jpg'
+                    )">
+
+                    🛒 افزودن به سبد خرید
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 4 -->
+
+        <div
+            class="product"
+            data-category="sleep"
+            data-name="تخت خواب نوزاد">
+
+            <div class="product-image">
+
+                <span class="discount">
+                    ۱۰٪ تخفیف
+                </span>
+
+                <button
+                    class="heart"
+                    onclick="toggleHeart(this)">
+
+                    ♡
+
+                </button>
+
+                <img
+                    src="Images/bed.jpg"
+                    alt="تخت نوزاد">
+
+            </div>
+
+
+            <div class="product-info">
+
+                <h3>
+                    تخت خواب نوزاد مدل رویال
+                </h3>
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <div class="price">
+
+                    <strong>
+                        ۵,۹۰۰,۰۰۰ تومان
+                    </strong>
+
+                    <del>
+                        ۶,۵۰۰,۰۰۰
+                    </del>
+
+                </div>
+
+
+                <button
+                    class="add-cart"
+                    onclick="addToCart(
+                        'تخت خواب نوزاد مدل رویال',
+                        5900000,
+                        'Images/bed.jpg'
+                    )">
+
+                    🛒 افزودن به سبد خرید
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 5 -->
+
+        <div
+            class="product"
+            data-category="baby"
+            data-name="پستانک سیلیکونی">
+
+            <div class="product-image">
+
+                <button
+                    class="heart"
+                    onclick="toggleHeart(this)">
+
+                    ♡
+
+                </button>
+
+                <img
+                    src="Images/pacifier.jpg"
+                    alt="پستانک">
+
+            </div>
+
+
+            <div class="product-info">
+
+                <h3>
+                    پستانک سیلیکونی نوزاد
+                </h3>
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <div class="price">
+
+                    <strong>
+                        ۲۹۰,۰۰۰ تومان
+                    </strong>
+
+                </div>
+
+
+                <button
+                    class="add-cart"
+                    onclick="addToCart(
+                        'پستانک سیلیکونی نوزاد',
+                        290000,
+                        'Images/pacifier.jpg'
+                    )">
+
+                    🛒 افزودن به سبد خرید
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 6 -->
+
+        <div
+            class="product"
+            data-category="toy"
+            data-name="جغجغه آموزشی">
+
+            <div class="product-image">
+
+                <button
+                    class="heart"
+                    onclick="toggleHeart(this)">
+
+                    ♡
+
+                </button>
+
+                <img
+                    src="Images/rattle.jpg"
+                    alt="جغجغه">
+
+            </div>
+
+
+            <div class="product-info">
+
+                <h3>
+                    جغجغه آموزشی نوزاد
+                </h3>
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <div class="price">
+
+                    <strong>
+                        ۳۹۰,۰۰۰ تومان
+                    </strong>
+
+                </div>
+
+
+                <button
+                    class="add-cart"
+                    onclick="addToCart(
+                        'جغجغه آموزشی نوزاد',
+                        390000,
+                        'Images/rattle.jpg'
+                    )">
+
+                    🛒 افزودن به سبد خرید
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 7 -->
+
+        <div
+            class="product"
+            data-category="clothes"
+            data-name="سرهمی نوزادی">
+
+            <div class="product-image">
+
+                <span class="discount">
+                    ۲۵٪ تخفیف
+                </span>
+
+                <button
+                    class="heart"
+                    onclick="toggleHeart(this)">
+
+                    ♡
+
+                </button>
+
+                <img
+                    src="Images/romper.jpg"
+                    alt="سرهمی نوزادی">
+
+            </div>
+
+
+            <div class="product-info">
+
+                <h3>
+                    سرهمی نوزادی پنبه‌ای
+                </h3>
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <div class="price">
+
+                    <strong>
+                        ۴۹۰,۰۰۰ تومان
+                    </strong>
+
+                    <del>
+                        ۶۵۰,۰۰۰
+                    </del>
+
+                </div>
+
+
+                <button
+                    class="add-cart"
+                    onclick="addToCart(
+                        'سرهمی نوزادی پنبه‌ای',
+                        490000,
+                        'Images/romper.jpg'
+                    )">
+
+                    🛒 افزودن به سبد خرید
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 8 -->
+
+        <div
+            class="product"
+            data-category="baby"
+            data-name="ست حوله حمام">
+
+            <div class="product-image">
+
+                <button
+                    class="heart"
+                    onclick="toggleHeart(this)">
+
+                    ♡
+
+                </button>
+
+                <img
+                    src="Images/towel.jpg"
+                    alt="حوله نوزاد">
+
+            </div>
+
+
+            <div class="product-info">
+
+                <h3>
+                    ست حوله حمام نوزاد
+                </h3>
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <div class="price">
+
+                    <strong>
+                        ۷۹۰,۰۰۰ تومان
+                    </strong>
+
+                </div>
+
+
+                <button
+                    class="add-cart"
+                    onclick="addToCart(
+                        'ست حوله حمام نوزاد',
+                        790000,
+                        'Images/towel.jpg'
+                    )">
+
+                    🛒 افزودن به سبد خرید
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- OFFER -->
+
+<section
+    class="offer"
+    id="offers">
+
+    <div>
+
+        <span>
+            پیشنهاد ویژه امروز
+        </span>
+
+        <h2>
+            تا ۳۰٪ تخفیف برای کوچولوی شما 🎁
+        </h2>
+
+        <p>
+            محصولات منتخب با قیمت ویژه
+        </p>
+
+    </div>
+
+
+    <button onclick="goToProducts()">
+
+        مشاهده محصولات
+
+    </button>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact-section">
+
+    <div class="contact-box">
+
+        <div>
+
+            <span>
+                با ما در ارتباط باشید
+            </span>
+
+            <h2>
+                سوالی دارید؟ 💗
+            </h2>
+
+            <p>
+                برای مشاوره خرید و ثبت سفارش
+                با ما در تماس باشید.
+            </p>
+
+        </div>
+
+
+        <div class="contact-info">
+
+            <a href="tel:09136688733">
+                📞 09136688733
+            </a>
+
+            <a href="https://wa.me/989121234567">
+                💬 سفارش از واتساپ
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer id="contact">
+
+    <div class="footer-grid">
+
+        <div>
+
+            <h3>
+                نی‌نی لند 🍼
+            </h3>
+
+            <p>
+                فروشگاه تخصصی سیسمونی و محصولات نوزاد.
+                با عشق برای کوچولوهای دوست‌داشتنی شما.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                دسترسی سریع
+            </h3>
+
+            <ul>
+
+                <li>
+                    <a href="#home">
+                        خانه
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#products">
+                        محصولات
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#categories">
+                        دسته‌بندی‌ها
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                خدمات مشتریان
+            </h3>
+
+            <ul>
+
+                <li>
+                    پیگیری سفارش
+                </li>
+
+                <li>
+                    بازگشت کالا
+                </li>
+
+                <li>
+                    سوالات متداول
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                تماس با ما
+            </h3>
+
+            <p>
+                📞 ۰۹۱۲۱۲۳۴۵۶۷
+            </p>
+
+            <p>
+                📧 info@nini-land.ir
+            </p>
+
+            <p>
+                📍 اصفهان
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © ۱۴۰۵ تمامی حقوق برای فروشگاه نی‌نی لند محفوظ است.
+
+    </div>
+
+</footer>
+
+
+<!-- CART -->
+
+<div
+    class="overlay"
+    id="overlay"
+    onclick="closeCart()">
+</div>
+
+
+<div
+    class="cart"
+    id="cart">
+
+    <div class="cart-header">
+
+        <h2>
+            سبد خرید 🛒
+        </h2>
+
+        <button onclick="closeCart()">
+            ×
+        </button>
+
+    </div>
+
+
+    <div
+        class="cart-items"
+        id="cartItems">
+
+    </div>
+
+
+    <div class="cart-footer">
+
+        <div class="total">
+
+            <span>
+                مبلغ نهایی
+            </span>
+
+            <strong id="cartTotal">
+                ۰ تومان
+            </strong>
+
+        </div>
+
+
+        <button
+            class="checkout"
+            onclick="checkout()">
+
+            ثبت سفارش در واتساپ
+
+        </button>
+
+    </div>
+
+</div>
+
+
+<div
+    class="toast"
+    id="toast">
+
+    محصول به سبد خرید اضافه شد 🛍️
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
